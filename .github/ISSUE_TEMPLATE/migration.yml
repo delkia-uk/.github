@@ -1,9 +1,9 @@
-name: Migration (v2)
+name: Migration
 description: Plan a feature migration from an old codebase to a new codebase
 labels:
   - migration
 title: "[MIG]"
-type: Task
+type: Migration
 body:
   - type: input
     attributes:
