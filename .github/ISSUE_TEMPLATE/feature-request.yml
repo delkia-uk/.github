@@ -26,9 +26,10 @@ body:
     attributes:
       label: Priority
       options:
-        - Low
-        - Medium
-        - High
+        - P3 - Low
+        - P2 - Medium
+        - P1 - High
+        - P0 - Urgent
       default: 0
     validations:
       required: true
