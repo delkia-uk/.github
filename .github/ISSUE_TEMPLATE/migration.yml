@@ -1,0 +1,25 @@
+name: Migration (v2)
+description: Plan a feature migration from an old codebase to a new codebase
+labels:
+  - migration
+title: "[MIG]"
+type: Task
+body:
+  - type: input
+    attributes:
+      label: Source
+      description: Which repository contains the feature to be migrated?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: Briefly describe the feature to be migrated.
+  - type: textarea
+    attributes:
+      label: Integration
+      description: Do you have any ideas on how it should fit, or where it should go?
+  - type: textarea
+    attributes:
+      label: Other Context
+      description: Is there any other context for this migration?
