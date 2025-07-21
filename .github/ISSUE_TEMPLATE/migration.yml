@@ -2,7 +2,7 @@ name: Migration
 description: Plan a feature migration from an old codebase to a new codebase
 labels:
   - migration
-title: "[MIG]"
+title: "[MIGRATE] "
 type: Migration
 body:
   - type: input

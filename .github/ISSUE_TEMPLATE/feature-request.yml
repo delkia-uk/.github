@@ -1,0 +1,39 @@
+name: Feature Request
+description: Plan a feature migration from an old codebase to a new codebase
+labels:
+  - enhancement
+title: "[FEATURE] "
+type: Feature
+body:
+  - type: input
+    attributes:
+      label: Feature Title
+      placeholder: A short title for your feature request
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the feature in detail.
+      multiline: true
+
+  - type: textarea
+    attributes:
+      label: Integration
+      description: Do you have any ideas on how it should fit, or where it should go?
+
+  - type: input
+    id: use_case
+    attributes:
+      label: Use Case
+      placeholder: Describe how this feature would be used
+
+  - type: input
+    id: priority
+    attributes:
+      label: Priority
+      placeholder: High, Medium, Low
+
+  - type: textarea
+    attributes:
+      label: Other Context
+      description: Is there any other context for this migration?
