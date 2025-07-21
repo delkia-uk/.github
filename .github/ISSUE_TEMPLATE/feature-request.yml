@@ -14,7 +14,6 @@ body:
     attributes:
       label: Description
       description: Describe the feature in detail.
-      multiline: true
 
   - type: textarea
     attributes:
