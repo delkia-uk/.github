@@ -1,5 +1,5 @@
 name: Feature Request
-description: Plan a feature migration from an old codebase to a new codebase
+description: Suggest a new feature or enhancement for the project.
 labels:
   - enhancement
 title: "[FEATURE] "
