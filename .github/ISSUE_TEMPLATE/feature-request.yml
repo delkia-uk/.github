@@ -5,32 +5,33 @@ labels:
 title: "[FEATURE] "
 type: Feature
 body:
-  - type: input
-    attributes:
-      label: Feature Title
-      placeholder: A short title for your feature request
-
   - type: textarea
     attributes:
       label: Description
       description: Describe the feature in detail.
+    validations:
+      required: true
 
   - type: textarea
     attributes:
       label: Integration
       description: Do you have any ideas on how it should fit, or where it should go?
 
-  - type: input
-    id: use_case
+  - type: textarea
     attributes:
       label: Use Case
       placeholder: Describe how this feature would be used
 
-  - type: input
-    id: priority
+  - type: dropdown
     attributes:
       label: Priority
-      placeholder: High, Medium, Low
+      options:
+        - Low
+        - Medium
+        - High
+      default: 0
+    validations:
+      required: true
 
   - type: textarea
     attributes:
