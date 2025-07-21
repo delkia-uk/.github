@@ -1,0 +1,51 @@
+name: Documentation Needed
+description: Documentation is missing, incomplete, or unhelpful.
+labels:
+  - documentation
+title: "[DOCS] "
+type: Task
+body:
+  - type: dropdown
+    attributes:
+      label: Status
+      options:
+        - Missing - The documentation does not exist at all
+        - Incomplete - Some information is missing from the documentation
+        - Unhelpful - Either the documentation is unclear, or it did not help to solve your issue
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Your Problem
+      description: Briefly describe the problem you were trying to find an answer to.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed Solution
+      description: |
+        How would you like to see this solved?
+        **Please use placeholders if you have an idea of the structure, but don't know the content.**
+
+        - If the wording was unclear, how would you rephrase it to make it clearer?
+        - If you struggled to find some documentation, where did you expect it to be?
+        - If information was missing, what kind of information were you looking for?
+
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - P3 - Low
+        - P2 - Medium
+        - P1 - High
+        - P0 - Urgent
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Other Context
+      description: Is there any other context for this issue?
