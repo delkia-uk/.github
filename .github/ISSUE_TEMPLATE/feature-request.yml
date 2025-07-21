@@ -37,4 +37,4 @@ body:
   - type: textarea
     attributes:
       label: Other Context
-      description: Is there any other context for this migration?
+      description: Is there any other context for this feature?
