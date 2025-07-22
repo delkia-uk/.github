@@ -1,0 +1,58 @@
+name: Bug Report
+description: File a bug report here.
+labels:
+  - bug
+title: "[BUG] "
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible.
+
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+      validations:
+        required: true
+
+  - type: textarea
+    attributes:
+      label: Description of the bug
+      description: Tell us what bug you encountered and what should have happened.
+      validations:
+        required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: Please write the steps in a list form.
+      validations:
+        required: true
+
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - P3 - Low
+        - P2 - Medium
+        - P1 - High
+        - P0 - Urgent
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed Solution
+      description: If you have an idea for how to fix this issue, please share it here.
+      placeholder: Describe your proposed solution.
+
+  - type: textarea
+    attributes:
+      label: Other Context
+      description: Is there any other context for this issue?
