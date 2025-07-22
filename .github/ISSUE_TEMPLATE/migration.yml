@@ -17,11 +17,6 @@ body:
       label: Description
       description: Briefly describe the feature to be migrated.
 
-  - type: textarea
-    attributes:
-      label: Integration
-      description: Do you have any ideas on how it should fit, or where it should go?
-
   - type: dropdown
     attributes:
       label: Priority
@@ -30,9 +25,13 @@ body:
         - P2 - Medium
         - P1 - High
         - P0 - Urgent
-      default: 0
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: Integration
+      description: Do you have any ideas on how it should fit, or where it should go?
 
   - type: textarea
     attributes:

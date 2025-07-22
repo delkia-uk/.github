@@ -22,6 +22,17 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - P3 - Low
+        - P2 - Medium
+        - P1 - High
+        - P0 - Urgent
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: Proposed Solution
@@ -32,18 +43,6 @@ body:
         - If the wording was unclear, how would you rephrase it to make it clearer?
         - If you struggled to find some documentation, where did you expect it to be?
         - If information was missing, what kind of information were you looking for?
-
-  - type: dropdown
-    attributes:
-      label: Priority
-      options:
-        - P3 - Low
-        - P2 - Medium
-        - P1 - High
-        - P0 - Urgent
-      default: 0
-    validations:
-      required: true
 
   - type: textarea
     attributes:
