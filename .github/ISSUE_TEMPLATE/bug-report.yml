@@ -16,15 +16,15 @@ body:
       description: Please search to see if an issue already exists for the bug you encountered.
       options:
         - label: I have searched the existing issues
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     attributes:
       label: Description of the bug
       description: Tell us what bug you encountered and what should have happened.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: steps-to-reproduce
@@ -32,8 +32,8 @@ body:
       label: Steps to Reproduce
       description: Steps to reproduce the behavior.
       placeholder: Please write the steps in a list form.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: dropdown
     attributes:
