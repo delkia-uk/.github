@@ -1,0 +1,15 @@
+name: Tracking Issue
+description: |
+  An issue  totrack milestones, acting as a parent issue to all issues in the
+  milestone. It allows for blocking relations between milestones.
+labels:
+  - T-Tracking
+title: "[TRACKING ISSUe] "
+type: Tracking Issue
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the milestone in detail.
+    validations:
+      required: true
