@@ -4,7 +4,7 @@ description: |
   milestone. It allows for blocking relations between milestones.
 labels:
   - T-Tracking
-title: "[TRACKING ISSUe] "
+title: "[TRACKING ISSUE] "
 type: Tracking Issue
 body:
   - type: textarea
